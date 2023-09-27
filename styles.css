@@ -1,5 +1,25 @@
+:root {
+  --dark: #1b1b1b;
+}
+
 body {
-  background-color: #1b1b1b;
+  background-color: var(--dark);
+}
+
+.content {
+  width: 80%;
+}
+
+.project-description {
+  color: white;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 20%);
+  border-radius: 8px;
+}
+
+.projects-header {
+  text-align: center;
+  color: white;
 }
 
 .about-link {
