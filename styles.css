@@ -44,7 +44,7 @@ body {
   border: 1px solid white;
   padding: 16px 24px;
   border-radius: 4px;
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   font-family: "Archivo Black";
 }
 
@@ -93,5 +93,30 @@ hr {
 
   .project-container {
     flex: 1; /* Take up full width */
+  }
+}
+
+@media (max-width: 1375px) {
+  .hero {
+    width: 80%;
+    padding: 50px 0;
+    height: 200px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;
+    letter-spacing: -0.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero h2 {
+    font-size: 0.5rem;
+    line-height: 130%;
+    margin-bottom: 0 !important;
+  }
+
+  .about-link {
+    display: none;
   }
 }
