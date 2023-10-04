@@ -2,26 +2,6 @@
   --dark: #1b1b1b;
 }
 
-body {
-  background-color: var(--dark);
-}
-
-.content {
-  width: 80%;
-}
-
-.project-description {
-  color: white;
-  padding: 2rem;
-  background-color: rgba(255, 255, 255, 20%);
-  border-radius: 8px;
-}
-
-.projects-header {
-  text-align: center;
-  color: white;
-}
-
 .about-link {
   color: white;
   font-family: "Archivo";
@@ -30,10 +10,12 @@ body {
   text-decoration: none;
 }
 
-hr {
-  margin: -1rem 0 1rem;
-  border-top: 1px white solid;
-  opacity: 1;
+body {
+  background-color: var(--dark);
+}
+
+.content {
+  width: 80%;
 }
 
 .hero {
@@ -54,4 +36,62 @@ hr {
   font-family: "Rock Salt";
   font-size: 1.7rem;
   line-height: 125%;
+}
+
+.more-button {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 16px 24px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-family: "Archivo Black";
+}
+
+.more-button:hover {
+  background-color: rgba(255, 255, 255, 0.4); /* White with 40% opacity */
+  color: black;
+  border: none;
+}
+
+.more-button:active {
+  background-color: white;
+  color: var(--dark);
+}
+
+.project-container {
+  color: white;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 20%);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: flex-start; /* Align text to the left */
+}
+
+.project-container h2 {
+  font-family: "Rock Salt";
+}
+
+.projects-header {
+  text-align: center;
+  color: white;
+}
+
+hr {
+  margin: -1rem 0 1rem;
+  border-top: 1px white solid;
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  /* Apply styles when screen width is 991px or smaller */
+  .d-none.d-lg-block {
+    display: none; /* Hide the image */
+  }
+
+  .project-container {
+    flex: 1; /* Take up full width */
+  }
 }
