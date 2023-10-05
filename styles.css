@@ -120,3 +120,29 @@ hr {
     display: none;
   }
 }
+
+.about-me-header h3 {
+  font-family: "Archivo Black";
+  font-size: 1rem;
+}
+
+.picture {
+  height: auto;
+  max-height: 80vh;
+  border-radius: 0 !important;
+  width: 100%;
+}
+
+.about-me-header {
+  border-radius: 0;
+}
+
+.about-me h1 {
+  font-family: "Archivo Black";
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+.about-me h2 {
+  font-size: 1rem;
+}
