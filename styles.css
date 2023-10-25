@@ -160,3 +160,7 @@ hr {
 .socials {
   color: var(--accent);
 }
+
+.content {
+  padding: 80px 20px;
+}
