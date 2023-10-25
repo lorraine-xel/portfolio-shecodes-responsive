@@ -1,5 +1,7 @@
 :root {
   --dark: #1b1b1b;
+  --main: #8d5a97;
+  --accent: #b8ebd0;
 }
 
 .about-link {
@@ -62,7 +64,7 @@ body {
 .project-container {
   color: white;
   padding: 2rem;
-  background-color: rgba(255, 255, 255, 20%);
+  background-color: rgba(255, 255, 255, 0.083);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -145,4 +147,16 @@ hr {
 
 .about-me h2 {
   font-size: 1rem;
+}
+
+.biography {
+  font-size: 0.75rem;
+}
+
+.tagline {
+  color: var(--main);
+}
+
+.socials {
+  color: var(--accent);
 }
